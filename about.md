@@ -16,7 +16,9 @@ People change. I want the dated entries to show that change, rather than keep re
 
 ### What belongs here
 
+
 Everyday journal entries, running experiences, work and learning, travel and memories, personal reflections, and letters to my future self.
 </div>
+
 
 [Read my story]({{ '/my-story/' | relative_url }}) — childhood, school, college, and my path into network architecture.
