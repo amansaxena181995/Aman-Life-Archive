@@ -1,0 +1,7 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+<section class="page-heading"><p class="eyebrow">THE LIFE ARCHIVE</p><h1>A way back.</h1><p>Browse the years, then the months. Every entry has a place in time.</p></section>
+{% assign years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}{% for year in years %}<section class="archive-year"><h2>{{ year.name }}</h2>{% assign months = year.items | group_by_exp: 'post', 'post.date | date: "%B"' %}{% for month in months %}<h3>{{ month.name }}</h3><ul class="archive-list">{% for post in month.items %}<li><time>{{ post.date | date: '%d' }}</time><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><span>{{ post.category | escape }}</span></li>{% endfor %}</ul>{% endfor %}</section>{% endfor %}

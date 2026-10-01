@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | escape }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head><body><a class="skip" href="#main">Skip to content</a>
+<header><a class="brand" href="{{ '/' | relative_url }}">Aman<span>Engineer by day. Runner by passion.</span></a><nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}">Journal</a><a href="{{ '/archive/' | relative_url }}">Archive</a><a href="{{ '/my-story/' | relative_url }}">My Story</a><a href="{{ '/about/' | relative_url }}">About</a></nav></header>
+<main id="main">{{ content }}</main><footer>A personal record, one entry at a time.<span>© {{ site.time | date: '%Y' }} {{ site.author | escape }}</span></footer>
+</body></html>

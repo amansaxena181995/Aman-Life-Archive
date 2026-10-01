@@ -1,0 +1,17 @@
+title: "Aman’s Life Archive"
+author: "Aman Saxena"
+description: "A personal journal of work, running, memories, and everyday life."
+url: ""
+baseurl: "/aman-life-archive"
+timezone: Asia/Kolkata
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+future: false
+strict_front_matter: true
+exclude: [README.md, Gemfile, Gemfile.lock, templates, preview.html, my-story.html]
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
