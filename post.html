@@ -1,4 +1,0 @@
----
-layout: default
----
-<article class="story"><a class="back" href="{{ '/archive/' | relative_url }}">← All memories</a><p class="eyebrow">{{ page.date | date: '%d %B %Y' }} · {{ page.category | escape }}</p><h1>{{ page.title | escape }}</h1>{% if page.sample %}<p class="notice">Sample entry — edit this in your own words before publishing.</p>{% endif %}<div class="prose">{{ content }}</div><hr><nav class="post-nav" aria-label="Other entries">{% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title | escape }}</a>{% endif %}{% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title | escape }} →</a>{% endif %}</nav></article>
