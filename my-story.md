@@ -15,7 +15,7 @@ My mother loved me a lot and was very protective. She never let me go anywhere a
 
 I did my B.Tech in Computer Science at Invertis University in Bareilly. I enjoyed those four years of hostel life. But honestly, I never ran a program in C, Java, or even made a page in HTML during college. 😄
 
-For around 1lso prepared for the civil services. Looking back, I think my wish to get selected was connected to someone in my life. When that person left, I also left the preparation. This happened towards the end of college.
+For around 10–12 months, I also prepared for the civil services. But towards the end of college, I decided to stop the preparation and look for a job instead.
 
 In June 2016, after college, I came to Delhi NCR to find a job. I had no idea what kind of job I would get. I did not know how to communicate properly, and I did not know programming or much of the practical side of computer science.
 
