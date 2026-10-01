@@ -1,8 +1,8 @@
 title: "Aman’s Life Archive"
 author: "Aman Saxena"
 description: "A personal journal of work, running, memories, and everyday life."
-url: ""
-baseurl: "/aman-life-archive"
+url:  "https://amansaxena181995.github.io"
+baseurl: "/Aman-Life-Archive"
 timezone: Asia/Kolkata
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
